@@ -133,17 +133,14 @@ nav a:hover:after{
 .trans{
     background-color: rgba(0, 0, 0, 0.736);
     height: 100%;
-    display: flex;
-
-}
-
-.intro{
-    padding: 7rem;
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+}
 
+.intro{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .text h1{
@@ -196,7 +193,7 @@ nav a:hover:after{
 @media(max-width:600px){
     .bg{
         background-position:  center right ;
-        height: 600px;
+        height: 620px;
     }
 }
 /*ability*/
@@ -247,7 +244,7 @@ nav a:hover:after{
     }
     
     .ability i{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -261,14 +258,12 @@ nav a:hover:after{
     .ability-item{
         grid-template-columns: repeat(3,1fr);
     }
-    
-    .ability i{
-        font-size: 2.2rem;
-    }
 }
 
 @media(max-width:660px){
-    
+    .ability{
+        padding: 2rem 1rem;
+    }
     .ability h1{
         font-size: 2em;
         padding-bottom: 2rem;
