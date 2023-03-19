@@ -390,7 +390,18 @@ nav a:hover:after{
     width: 200px;
     margin: 0 auto;
 }
-
+  
+  .item {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .item.show {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  
 @media(max-width:750px){
     .training{     
         grid-template-columns: 1fr ;
@@ -411,19 +422,4 @@ footer {
 
 /*animação*/
 
-.training {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .item {
-    opacity: 0;
-    transform: translateY(50%);
-    transition: opacity 1s ease, transform 1s ease;
-  }
-  
-  .item.show {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  
+

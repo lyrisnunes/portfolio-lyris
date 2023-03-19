@@ -7,6 +7,7 @@ function menuShow() {
    }
 }
 
+function scrollShow() {
 window.addEventListener("scroll", function() {
    var items = document.querySelectorAll(".item");
    var windowHeight = window.innerHeight;
@@ -16,5 +17,8 @@ window.addEventListener("scroll", function() {
        items[i].classList.add("show");
      }
    }
- });
+ });   
+}
+scrollShow();
+
  
