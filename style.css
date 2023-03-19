@@ -308,6 +308,9 @@ nav a:hover:after{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    background-color: #121214;
 }
 
 .project img{
@@ -321,12 +324,6 @@ nav a:hover:after{
     display: flex;
     justify-content: end;
     align-items: center;
-}
-
-.project div  {
-    padding: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.281);
-    background-color: #121214;
 }
 
 .project  li i{
@@ -361,8 +358,8 @@ nav a:hover:after{
         grid-template-columns: repeat(1,1fr);
     }
 }
-/*formação*/
 
+/*formação*/
 
 .training{
     display: grid;
@@ -373,7 +370,7 @@ nav a:hover:after{
     margin: 0 auto;
     color: var(--cor-white);
     gap: 20px;
-    padding: 4rem 0;
+    padding: 4rem 1rem;
     text-align: center;
 }
 
@@ -398,6 +395,17 @@ nav a:hover:after{
     margin: 0 auto;
 }
 
+@media(max-width:750px){
+    .training{     
+        grid-template-columns: 1fr ;
+        padding: 3rem 1rem;
+    }
+
+    .training-bg h1{
+        font-size: 2rem;
+    }
+    
+}
 /*footer*/
 
 footer {
