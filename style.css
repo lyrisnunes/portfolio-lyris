@@ -196,11 +196,9 @@ nav a:hover:after{
 @media(max-width:600px){
     .bg{
         background-position:  center right ;
-        height: 500px;
+        height: 600px;
     }
-
 }
-
 /*ability*/
 
 .ability{
@@ -210,8 +208,7 @@ nav a:hover:after{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .ability h1{
@@ -246,7 +243,6 @@ nav a:hover:after{
 @media(max-width:1220px){
 
     .ability h1{
-        font-size: 2.1rem;
         padding: 1rem 0;
     }
     
@@ -255,16 +251,27 @@ nav a:hover:after{
     }
 }
 
-@media(max-width:750px){
+@media(max-width:1000px){
 
     .ability{
         grid-template-columns: 1fr;
-        padding: 5rem 1rem;
+        padding: 6rem 1rem;
+    }
 
+    .ability-item{
+        grid-template-columns: repeat(3,1fr);
     }
     
     .ability i{
-        font-size: 1.5rem;
+        font-size: 2.2rem;
+    }
+}
+
+@media(max-width:660px){
+    
+    .ability h1{
+        font-size: 2em;
+        padding-bottom: 2rem;
     }
 }
 
@@ -273,7 +280,7 @@ nav a:hover:after{
 .project-bg{
     color: var(--cor-white);
     text-align: center;
-    padding: 5rem 0;
+    padding: 5rem 1rem;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -305,7 +312,7 @@ nav a:hover:after{
 
 .project img{
     display: block;
-    height: 100%;
+    height: 350px ;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -335,6 +342,25 @@ nav a:hover:after{
     padding: .5em;
 }
 
+@media(max-width:990px){
+    .project{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:650px){
+    .project-bg{
+        padding: 3rem 1rem;
+    }
+
+    .project-bg h1{
+        font-size: 1.9rem;
+    }
+
+    .project{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 /*formação*/
 
 
