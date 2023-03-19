@@ -262,7 +262,7 @@ nav a:hover:after{
 
 @media(max-width:660px){
     .ability{
-        padding: 2rem 1rem;
+        padding: 4rem 1rem;
     }
     .ability h1{
         font-size: 2em;
@@ -358,7 +358,7 @@ nav a:hover:after{
 
 .training{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     max-width: 900px;
@@ -386,6 +386,7 @@ nav a:hover:after{
 }
 
 .training div img{
+    height: 50px;
     width: 200px;
     margin: 0 auto;
 }
