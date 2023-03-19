@@ -6,3 +6,15 @@ function menuShow() {
       menuMobile.classList.add('open')
    }
 }
+
+window.addEventListener("scroll", function() {
+   var items = document.querySelectorAll(".item");
+   var windowHeight = window.innerHeight;
+   for (var i = 0; i < items.length; i++) {
+     var pos = items[i].getBoundingClientRect().top;
+     if (pos < windowHeight) {
+       items[i].classList.add("show");
+     }
+   }
+ });
+ 
