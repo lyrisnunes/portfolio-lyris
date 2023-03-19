@@ -28,7 +28,7 @@ img{
 header{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.5rem .8rem;
+    padding: 1.5rem 1rem;
 }
 
 .logo{
@@ -114,6 +114,12 @@ nav a:hover:after{
     }
 }
 
+@media(max-width:500px){
+    .logo{
+        font-size: .9rem;
+    }
+}
+
 /*intro*/
 
 .bg{
@@ -121,13 +127,14 @@ nav a:hover:after{
     background-size: cover;
     background-position: top center ;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 600px;
 
 }
 .trans{
     background-color: rgba(0, 0, 0, 0.736);
     height: 100%;
-    padding: 2rem;
+    display: flex;
+
 }
 
 .intro{
@@ -176,6 +183,23 @@ nav a:hover:after{
 }
 
 
+
+@media(max-width:850px){
+    .text h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .intro button{ 
+         padding: .8rem 2rem;
+    }
+}
+
+@media(max-width:500px){
+    .bg{
+        height: 100vh;
+    }
+}
 /*ability*/
 
 .ability{
