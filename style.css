@@ -182,8 +182,6 @@ nav a:hover:after{
     color: var(--cor-white);
 }
 
-
-
 @media(max-width:850px){
     .text h1{
         font-size: 2rem;
@@ -195,17 +193,20 @@ nav a:hover:after{
     }
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
     .bg{
-        height: 100vh;
+        background-position:  center right ;
+        height: 500px;
     }
+
 }
+
 /*ability*/
 
 .ability{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 9rem 0;
+    padding: 9rem 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -242,6 +243,30 @@ nav a:hover:after{
     font-size: 5rem;
 }
 
+@media(max-width:1220px){
+
+    .ability h1{
+        font-size: 2.1rem;
+        padding: 1rem 0;
+    }
+    
+    .ability i{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:750px){
+
+    .ability{
+        grid-template-columns: 1fr;
+        padding: 5rem 1rem;
+
+    }
+    
+    .ability i{
+        font-size: 1.5rem;
+    }
+}
 
 /*project*/
 
