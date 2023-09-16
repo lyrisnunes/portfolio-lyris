@@ -232,9 +232,8 @@ nav a:hover:after{
     border: 1px solid var(--cor-pink);
 }
 
-.ability i{
-    color: aliceblue;
-    font-size: 5rem;
+.ability-item .item img {
+    height: 4rem;
 }
 
 @media(max-width:1220px){
@@ -243,8 +242,8 @@ nav a:hover:after{
         padding: 1rem 0;
     }
     
-    .ability i{
-        font-size: 2.2rem;
+    .ability-item .item img{
+        height: 2.5rem;
     }
 }
 
@@ -345,7 +344,7 @@ nav a:hover:after{
 
 @media(max-width:650px){
     .project-bg{
-        padding: 3rem 1rem;
+        padding: 3rem 1.5rem;
     }
 
     .project-bg h1{
@@ -354,6 +353,15 @@ nav a:hover:after{
 
     .project{
         grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media(max-width:600px){
+    .project ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
     }
 }
 
