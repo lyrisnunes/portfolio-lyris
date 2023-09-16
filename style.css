@@ -312,7 +312,7 @@ nav a:hover:after{
     height: 350px ;
     max-width: 100%;
     margin: 0 auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .project ul{
@@ -344,7 +344,7 @@ nav a:hover:after{
 
 @media(max-width:650px){
     .project-bg{
-        padding: 3rem 1.5rem;
+        padding: 3rem 1rem;
     }
 
     .project-bg h1{
@@ -362,6 +362,10 @@ nav a:hover:after{
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
+    }
+
+    .project  li i{
+        font-size: 1.5rem;
     }
 }
 
