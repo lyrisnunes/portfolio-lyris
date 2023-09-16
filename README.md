@@ -1,6 +1,3 @@
 # portfolio-lyris
+ ![image](https://github.com/lyrisnunes/portfolio-lyris/assets/114685908/c8494884-b6f2-40c8-97b5-01b711bbfdd6)
 
-<h1>
-![image](https://github.com/lyrisnunes/portfolio-lyris/assets/114685908/5691a38b-f80f-48f9-baf3-54aac8def91d)
-
-</h1>
