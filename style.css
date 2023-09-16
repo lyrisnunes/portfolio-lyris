@@ -199,7 +199,7 @@ nav a:hover:after{
 /*ability*/
 
 .ability{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 9rem 1rem;
     display: grid;
@@ -216,7 +216,7 @@ nav a:hover:after{
 
 .ability-item{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
 }
 
 .ability div{
@@ -293,7 +293,7 @@ nav a:hover:after{
 
 .project{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -313,6 +313,7 @@ nav a:hover:after{
     height: 350px ;
     max-width: 100%;
     margin: 0 auto;
+    object-fit: cover;
 }
 
 .project ul{
@@ -321,9 +322,16 @@ nav a:hover:after{
     align-items: center;
 }
 
+.project li{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
 .project  li i{
     font-size: 2rem;
     margin-left: 1rem;
+    margin-right: .5rem;
 }
 
 .project li .btn{
