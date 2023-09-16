@@ -106,7 +106,7 @@ nav a:hover:after{
 
     .mobile-menu .link-item{
         display: block;
-        padding: .1rem 1rem;
+        padding-top: 1rem;
     }
 
     .open{
@@ -130,12 +130,14 @@ nav a:hover:after{
     height: 600px;
 
 }
+
 .trans{
     background-color: rgba(0, 0, 0, 0.736);
     height: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
 }
 
 .intro{
@@ -143,16 +145,22 @@ nav a:hover:after{
     margin: 0 auto;
 }
 
+.intro h2{
+    color: var(--cor-white);
+    font-size: 2rem;
+    text-align: center;
+}
+
 .text h1{
     color: var(--cor-white);
-    font-size: 2.9rem;
+    font-size: 5rem;
     text-align: center;
 }
 
 .text p{
     color: var(--cor-white);
     text-align:left;
-    padding: 2rem 0;
+    padding: 1rem 0;
     text-align: center;
 
 }
@@ -167,6 +175,7 @@ nav a:hover:after{
 .intro button{ 
     background-color: var(--cor-pink);
      padding: 1rem 3rem;
+     border-radius: 5px;
 }
 
 .intro button a{
@@ -181,7 +190,7 @@ nav a:hover:after{
 
 @media(max-width:850px){
     .text h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-align: center;
     }
 
@@ -194,6 +203,14 @@ nav a:hover:after{
     .bg{
         background-position:  center right ;
         height: 620px;
+    }
+
+    .text h1{
+        font-size: 2rem;
+    }
+
+    .intro h2{
+        font-size: 1rem;
     }
 }
 /*ability*/
@@ -391,18 +408,23 @@ nav a:hover:after{
     padding: 1rem 0;
 }
 
+.training .item{
+    padding: 1rem;
+}
+
 .training div{
     display: grid;
     justify-content: center;
     gap: 20px;
     border: 1px solid rgba(255, 255, 255, 0.281);
     padding: .5rem;
+    height: 10rem;
     
 }
 
 .training div img{
-    height: 50px;
-    width: 200px;
+    height: 3rem;
+    width: 100%;
     margin: 0 auto;
 }
   
